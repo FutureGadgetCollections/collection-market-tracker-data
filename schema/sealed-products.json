@@ -1,0 +1,13 @@
+[
+  {"name": "game",                 "type": "STRING",  "mode": "REQUIRED", "description": "e.g. pokemon, one-piece, riftbound"},
+  {"name": "era",                  "type": "STRING",  "mode": "REQUIRED", "description": "e.g. Scarlet & Violet"},
+  {"name": "set_code",             "type": "STRING",  "mode": "REQUIRED", "description": "e.g. sv01"},
+  {"name": "release_date",         "type": "STRING",  "mode": "REQUIRED", "description": "ISO 8601 date"},
+  {"name": "is_special_set",       "type": "BOOLEAN", "mode": "REQUIRED"},
+  {"name": "standard_legal_until", "type": "STRING",  "mode": "NULLABLE", "description": "ISO 8601 date"},
+  {"name": "product_type",         "type": "STRING",  "mode": "REQUIRED", "description": "e.g. booster-box"},
+  {"name": "msrp",                 "type": "FLOAT",   "mode": "NULLABLE"},
+  {"name": "packs_per_product",    "type": "INTEGER", "mode": "REQUIRED"},
+  {"name": "pricecharting_url",    "type": "STRING",  "mode": "NULLABLE"},
+  {"name": "tcgplayer_id",         "type": "STRING",  "mode": "NULLABLE"}
+]
