@@ -1,0 +1,10 @@
+[
+  {"name": "era",                       "type": "STRING",  "mode": "REQUIRED"},
+  {"name": "set_code",                  "type": "STRING",  "mode": "REQUIRED", "description": "e.g. sv01"},
+  {"name": "set_name",                  "type": "STRING",  "mode": "REQUIRED", "description": "Display name"},
+  {"name": "rarity",                    "type": "STRING",  "mode": "REQUIRED"},
+  {"name": "pull_rate_per_pack",        "type": "FLOAT",   "mode": "REQUIRED"},
+  {"name": "unique_card_count",         "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "individual_card_pull_rate", "type": "FLOAT",   "mode": "NULLABLE"},
+  {"name": "master_difficulty_score",   "type": "INTEGER", "mode": "NULLABLE"}
+]
