@@ -1,14 +1,26 @@
-# bq-cr-gcs-git-architecture-data-template
+# collection-market-tracker-data
 
-A generic template for the **BigQuery + Cloud Run + GCS + Git** data architecture — a pattern that keeps data permanently accessible even when GCP billing is disrupted, by treating this Git repository as the source of truth.
+The data layer for the **Collection Market Tracker** — a **BigQuery + Cloud Run + GCS + Git** architecture that keeps data permanently accessible even when GCP billing is disrupted, by treating this Git repository as the source of truth.
+
+## Related repositories
+
+| Repo | Description |
+|---|---|
+| [collection-market-tracker-backend](https://github.com/FutureGadgetCollections/collection-market-tracker-backend) | Populates this repo with scraped/processed market data |
+| [collection-market-tracker-frontend-admin](https://github.com/FutureGadgetCollections/collection-market-tracker-frontend-admin) | Admin UI that reads from BigQuery / Cloud Run backed by this data |
 
 ## Architecture overview
 
 ```
-┌─────────────────────────────────────────────────────┐
-│  Git repository  (this repo — always available)     │
-│  data/*.jsonl  ←  source of truth for all records   │
-└────────────────────────┬────────────────────────────┘
+┌────────────────────────────────────────────────────────────┐
+│  collection-market-tracker-backend                         │
+│  Scrapes / processes market data, commits to this repo     │
+└────────────────────────┬───────────────────────────────────┘
+                         │ git push
+┌────────────────────────▼───────────────────────────────────┐
+│  collection-market-tracker-data  (this repo)               │
+│  data/*.jsonl  ←  source of truth for all records          │
+└────────────────────────┬───────────────────────────────────┘
                          │ GitHub Actions (on push to main)
           ┌──────────────▼──────────────┐
           │   Google Cloud Storage      │
@@ -22,12 +34,12 @@ A generic template for the **BigQuery + Cloud Run + GCS + Git** data architectur
                          │ SQL / REST API
           ┌──────────────▼──────────────┐
           │        Cloud Run            │
-          │   frontend / API service    │
+          │   collection-market-tracker-frontend-admin        │
           └─────────────────────────────┘
 ```
 
 **Why Git as source of truth?**
-GCP billing outages (or account suspensions) take down GCS, BigQuery, and Cloud Run simultaneously. Because all data is committed here, a separate static host or CDN can serve directly from the raw GitHub URLs with zero GCP dependency.
+GCP billing outages (or account suspensions) take down GCS, BigQuery, and Cloud Run simultaneously. Because all data is committed here, the frontend admin can fall back to reading directly from raw GitHub URLs with zero GCP dependency.
 
 ## Repository layout
 
