@@ -1,0 +1,10 @@
+[
+  {"name": "game",              "type": "STRING", "mode": "REQUIRED", "description": "e.g. pokemon, one-piece, riftbound"},
+  {"name": "era",               "type": "STRING", "mode": "REQUIRED"},
+  {"name": "set_code",          "type": "STRING", "mode": "REQUIRED", "description": "e.g. sv01"},
+  {"name": "card_number",       "type": "STRING", "mode": "REQUIRED", "description": "e.g. 019, TG01"},
+  {"name": "name",              "type": "STRING", "mode": "REQUIRED"},
+  {"name": "rarity",            "type": "STRING", "mode": "REQUIRED", "description": "e.g. double_rare, ultra_rare"},
+  {"name": "pricecharting_url", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "tcgplayer_id",      "type": "STRING", "mode": "NULLABLE"}
+]
