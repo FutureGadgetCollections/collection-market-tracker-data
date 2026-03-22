@@ -14,3 +14,6 @@ __pycache__/
 *.json.key
 service-account*.json
 gcloud-key*.json
+
+# Claude Code local settings (machine-specific permission grants)
+.claude/settings.local.json
