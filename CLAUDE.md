@@ -24,7 +24,7 @@ All repos are siblings under the same parent directory. Run `setup.sh` from `col
 | Resource | Details |
 |----------|---------|
 | GCP Project | `future-gadget-labs-483502` |
-| GCS bucket | `collection-showcase-data` — parallel copy of data files |
+e| GCS bucket | `collection-tracker-data` — parallel copy of data files |
 | BigQuery | Project `future-gadget-labs-483502`, dataset `catalog` — source of truth |
 | Cloud Run service | `collection-market-tracker` — writes to this repo after every mutation |
 | Cloud Run job | `collection-showcase-data-sync` — daily cron that refreshes data files |
@@ -34,7 +34,7 @@ All repos are siblings under the same parent directory. Run `setup.sh` from `col
 ```
 BigQuery (source of truth)
   └── Backend API (on mutation) or Cron (daily)
-        ├──► gs://collection-showcase-data/data/<resource>.json  (GCS)
+        ├──► gs://collection-tracker-data/data/<resource>.json  (GCS)
         └──► data/<resource>.json (this repo, via GitHub API commit)
 
 Frontends read priority: GitHub Raw (this repo) ► GCS ► Live API
@@ -42,15 +42,16 @@ Frontends read priority: GitHub Raw (this repo) ► GCS ► Live API
 
 ## Data Files
 
-All files are JSON arrays (`[]` when empty). The backend publishes to `data/`:
+All files are JSON arrays (`[]` when empty). The backend publishes to `data/` and `schema/`:
 
 | File | BQ Table | Composite Key |
 |------|----------|---------------|
 | `data/sealed-products.json` | `catalog.sealed_products` | `(game, set_code, product_type)` |
 | `data/single-cards.json` | `catalog.single_cards` | `(game, set_code, card_number)` |
 | `data/set-pull-rates.json` | `catalog.set_pull_rates` | `(set_code, rarity)` |
-
-> **Note:** `data/items.jsonl` is a leftover template placeholder — it can be removed once the backend starts publishing the correct files above.
+| `schema/sealed-products.json` | — | BigQuery field definitions for sealed products |
+| `schema/single-cards.json` | — | BigQuery field definitions for single cards |
+| `schema/set-pull-rates.json` | — | BigQuery field definitions for set pull rates |
 
 ## Why Git as a Fallback?
 
