@@ -1,1 +1,162 @@
-[{"era":"Launch","individual_card_pull_rate":360,"master_difficulty_score":1439,"pull_rate_per_pack":0.0833,"rarity":"alt_art","set_code":"rb01","set_name":"Origins","unique_card_count":30},{"era":"Launch","individual_card_pull_rate":168,"master_difficulty_score":727,"pull_rate_per_pack":0.25,"rarity":"epic","set_code":"rb01","set_name":"Origins","unique_card_count":42},{"era":"Launch","individual_card_pull_rate":863,"master_difficulty_score":2680,"pull_rate_per_pack":0.0139,"rarity":"overnumber","set_code":"rb01","set_name":"Origins","unique_card_count":12},{"era":"Launch","individual_card_pull_rate":null,"master_difficulty_score":null,"pull_rate_per_pack":1.75,"rarity":"rare","set_code":"rb01","set_name":"Origins","unique_card_count":null},{"era":"Launch","individual_card_pull_rate":8633,"master_difficulty_score":26796,"pull_rate_per_pack":0.00139,"rarity":"signature_overnumber","set_code":"rb01","set_name":"Origins","unique_card_count":12},{"era":"Launch","individual_card_pull_rate":288,"master_difficulty_score":1088,"pull_rate_per_pack":0.0833,"rarity":"alt_art","set_code":"rb02","set_name":"Spiritforged","unique_card_count":24},{"era":"Launch","individual_card_pull_rate":152,"master_difficulty_score":643,"pull_rate_per_pack":0.25,"rarity":"epic","set_code":"rb02","set_name":"Spiritforged","unique_card_count":38},{"era":"Launch","individual_card_pull_rate":2158,"master_difficulty_score":8622,"pull_rate_per_pack":0.0139,"rarity":"overnumber","set_code":"rb02","set_name":"Spiritforged","unique_card_count":30},{"era":"Launch","individual_card_pull_rate":null,"master_difficulty_score":null,"pull_rate_per_pack":1.75,"rarity":"rare","set_code":"rb02","set_name":"Spiritforged","unique_card_count":null},{"era":"Launch","individual_card_pull_rate":8633,"master_difficulty_score":26796,"pull_rate_per_pack":0.00139,"rarity":"signature_overnumber","set_code":"rb02","set_name":"Spiritforged","unique_card_count":12},{"era":"Launch","individual_card_pull_rate":null,"master_difficulty_score":null,"pull_rate_per_pack":0.0833,"rarity":"alt_art","set_code":"rb03","set_name":"Unleashed","unique_card_count":null},{"era":"Launch","individual_card_pull_rate":null,"master_difficulty_score":null,"pull_rate_per_pack":0.25,"rarity":"epic","set_code":"rb03","set_name":"Unleashed","unique_card_count":null},{"era":"Launch","individual_card_pull_rate":null,"master_difficulty_score":null,"pull_rate_per_pack":0.0139,"rarity":"overnumber","set_code":"rb03","set_name":"Unleashed","unique_card_count":null},{"era":"Launch","individual_card_pull_rate":null,"master_difficulty_score":null,"pull_rate_per_pack":1.75,"rarity":"rare","set_code":"rb03","set_name":"Unleashed","unique_card_count":null},{"era":"Launch","individual_card_pull_rate":null,"master_difficulty_score":null,"pull_rate_per_pack":0.00139,"rarity":"signature_overnumber","set_code":"rb03","set_name":"Unleashed","unique_card_count":null},{"era":"Promo","individual_card_pull_rate":1,"master_difficulty_score":2,"pull_rate_per_pack":6,"rarity":"alt_art","set_code":"rb-promo-arcane","set_name":"Arcane Box Set","unique_card_count":6}]
+[
+  {
+    "era": "Launch",
+    "set_code": "rb01",
+    "set_name": "Origins",
+    "rarity": "alt_art",
+    "pull_rate_per_pack": 0.0833,
+    "unique_card_count": 30,
+    "individual_card_pull_rate": 360.0,
+    "master_difficulty_score": 1439
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb01",
+    "set_name": "Origins",
+    "rarity": "epic",
+    "pull_rate_per_pack": 0.25,
+    "unique_card_count": 42,
+    "individual_card_pull_rate": 168.0,
+    "master_difficulty_score": 727
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb01",
+    "set_name": "Origins",
+    "rarity": "overnumber",
+    "pull_rate_per_pack": 0.0139,
+    "unique_card_count": 12,
+    "individual_card_pull_rate": 863.0,
+    "master_difficulty_score": 2680
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb01",
+    "set_name": "Origins",
+    "rarity": "rare",
+    "pull_rate_per_pack": 1.75,
+    "unique_card_count": null,
+    "individual_card_pull_rate": null,
+    "master_difficulty_score": null
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb01",
+    "set_name": "Origins",
+    "rarity": "signature_overnumber",
+    "pull_rate_per_pack": 0.00139,
+    "unique_card_count": 12,
+    "individual_card_pull_rate": 8633.0,
+    "master_difficulty_score": 26796
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb02",
+    "set_name": "Spiritforged",
+    "rarity": "alt_art",
+    "pull_rate_per_pack": 0.0833,
+    "unique_card_count": 24,
+    "individual_card_pull_rate": 288.0,
+    "master_difficulty_score": 1088
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb02",
+    "set_name": "Spiritforged",
+    "rarity": "epic",
+    "pull_rate_per_pack": 0.25,
+    "unique_card_count": 38,
+    "individual_card_pull_rate": 152.0,
+    "master_difficulty_score": 643
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb02",
+    "set_name": "Spiritforged",
+    "rarity": "overnumber",
+    "pull_rate_per_pack": 0.0139,
+    "unique_card_count": 30,
+    "individual_card_pull_rate": 2158.0,
+    "master_difficulty_score": 8622
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb02",
+    "set_name": "Spiritforged",
+    "rarity": "rare",
+    "pull_rate_per_pack": 1.75,
+    "unique_card_count": null,
+    "individual_card_pull_rate": null,
+    "master_difficulty_score": null
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb02",
+    "set_name": "Spiritforged",
+    "rarity": "signature_overnumber",
+    "pull_rate_per_pack": 0.00139,
+    "unique_card_count": 12,
+    "individual_card_pull_rate": 8633.0,
+    "master_difficulty_score": 26796
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb03",
+    "set_name": "Unleashed",
+    "rarity": "alt_art",
+    "pull_rate_per_pack": 0.0833,
+    "unique_card_count": null,
+    "individual_card_pull_rate": null,
+    "master_difficulty_score": null
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb03",
+    "set_name": "Unleashed",
+    "rarity": "epic",
+    "pull_rate_per_pack": 0.25,
+    "unique_card_count": null,
+    "individual_card_pull_rate": null,
+    "master_difficulty_score": null
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb03",
+    "set_name": "Unleashed",
+    "rarity": "overnumber",
+    "pull_rate_per_pack": 0.0139,
+    "unique_card_count": null,
+    "individual_card_pull_rate": null,
+    "master_difficulty_score": null
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb03",
+    "set_name": "Unleashed",
+    "rarity": "rare",
+    "pull_rate_per_pack": 1.75,
+    "unique_card_count": null,
+    "individual_card_pull_rate": null,
+    "master_difficulty_score": null
+  },
+  {
+    "era": "Launch",
+    "set_code": "rb03",
+    "set_name": "Unleashed",
+    "rarity": "signature_overnumber",
+    "pull_rate_per_pack": 0.00139,
+    "unique_card_count": null,
+    "individual_card_pull_rate": null,
+    "master_difficulty_score": null
+  },
+  {
+    "era": "Promo",
+    "set_code": "rb-promo-arcane",
+    "set_name": "Arcane Box Set",
+    "rarity": "alt_art",
+    "pull_rate_per_pack": 6.0,
+    "unique_card_count": 6,
+    "individual_card_pull_rate": 1.0,
+    "master_difficulty_score": 2
+  }
+]
