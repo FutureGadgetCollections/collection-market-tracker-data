@@ -1,0 +1,14 @@
+[
+  {"name": "xirr",             "type": "FLOAT64", "mode": "NULLABLE"},
+  {"name": "total_invested",   "type": "FLOAT64", "mode": "REQUIRED"},
+  {"name": "quantity_bought",  "type": "INTEGER", "mode": "REQUIRED"},
+  {"name": "quantity_sold",    "type": "INTEGER", "mode": "REQUIRED"},
+  {"name": "quantity_held",    "type": "INTEGER", "mode": "REQUIRED"},
+  {"name": "revenue",          "type": "FLOAT64", "mode": "REQUIRED"},
+  {"name": "realized_pnl",     "type": "FLOAT64", "mode": "REQUIRED"},
+  {"name": "unrealized_value", "type": "FLOAT64", "mode": "NULLABLE"},
+  {"name": "unrealized_pnl",   "type": "FLOAT64", "mode": "NULLABLE"},
+  {"name": "total_pnl",        "type": "FLOAT64", "mode": "NULLABLE"},
+  {"name": "product_count",    "type": "INTEGER", "mode": "REQUIRED"},
+  {"name": "computed_at",      "type": "STRING",  "mode": "REQUIRED"}
+]
