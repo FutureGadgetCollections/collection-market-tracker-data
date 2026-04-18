@@ -1,110 +1,42 @@
 {
-  "generated_at": "2026-04-18T01:36:43+00:00",
+  "generated_at": "2026-04-18T02:41:15+00:00",
   "model_summary": {
     "pokemon": {
-      "6mo": {
-        "status": "trained",
-        "train_rows": 12227,
-        "inserted_predictions": 333,
-        "rmse": 0.5019,
-        "r2": -0.3569,
-        "naive_rmse": 0.4413,
-        "delta_vs_naive_pct": -13.7
-      },
       "1yr": {
         "status": "trained",
-        "train_rows": 10297,
-        "inserted_predictions": 333,
         "rmse": 0.6241,
         "r2": 0.1138,
-        "naive_rmse": 0.7157,
-        "delta_vs_naive_pct": 12.8
+        "delta_vs_naive_pct": 12.8,
+        "inserted_predictions": 333
       },
       "2yr": {
         "status": "trained",
-        "train_rows": 6768,
-        "inserted_predictions": 333,
         "rmse": 0.947,
         "r2": -0.0427,
-        "naive_rmse": 1.0167,
-        "delta_vs_naive_pct": 6.8
+        "delta_vs_naive_pct": 6.8,
+        "inserted_predictions": 333
+      },
+      "6mo": {
+        "status": "trained",
+        "rmse": 0.5019,
+        "r2": -0.3569,
+        "delta_vs_naive_pct": -13.7,
+        "inserted_predictions": 333
       }
     },
     "one-piece": {
       "6mo": {
         "status": "trained",
-        "train_rows": 490,
-        "inserted_predictions": 38,
         "rmse": 0.5616,
         "r2": -0.0334,
-        "naive_rmse": 0.8152,
-        "delta_vs_naive_pct": 31.1
-      },
-      "1yr": {
-        "status": "insufficient_data",
-        "rows": 306
-      },
-      "2yr": {
-        "status": "insufficient_data",
-        "rows": 66
+        "delta_vs_naive_pct": 31.1,
+        "inserted_predictions": 38
       }
     },
-    "mtg": {
-      "6mo": {
-        "status": "insufficient_data",
-        "rows": 0
-      },
-      "1yr": {
-        "status": "insufficient_data",
-        "rows": 0
-      },
-      "2yr": {
-        "status": "insufficient_data",
-        "rows": 0
-      }
-    },
-    "weiss-schwarz": {
-      "6mo": {
-        "status": "insufficient_data",
-        "rows": 0
-      },
-      "1yr": {
-        "status": "insufficient_data",
-        "rows": 0
-      },
-      "2yr": {
-        "status": "insufficient_data",
-        "rows": 0
-      }
-    },
-    "riftbound": {
-      "6mo": {
-        "status": "insufficient_data",
-        "rows": 10
-      },
-      "1yr": {
-        "status": "insufficient_data",
-        "rows": 0
-      },
-      "2yr": {
-        "status": "insufficient_data",
-        "rows": 0
-      }
-    },
-    "hololive": {
-      "6mo": {
-        "status": "insufficient_data",
-        "rows": 0
-      },
-      "1yr": {
-        "status": "insufficient_data",
-        "rows": 0
-      },
-      "2yr": {
-        "status": "insufficient_data",
-        "rows": 0
-      }
-    }
+    "mtg": {},
+    "weiss-schwarz": {},
+    "riftbound": {},
+    "hololive": {}
   },
   "products": [
     {
