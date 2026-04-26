@@ -28,7 +28,7 @@ Frontends (admin + public):
 | Repo | Role |
 |------|------|
 | [collection-market-tracker-backend](https://github.com/FutureGadgetCollections/collection-market-tracker-backend) | Writes to this repo after every mutation and on cron |
-| [collection-market-tracker-frontend-admin](https://github.com/FutureGadgetCollections/collection-market-tracker-frontend-admin) | Admin UI — reads from this repo as primary data source |
+| [collection-admin](https://github.com/FutureGadgetCollections/collection-admin) | Admin UI — reads from this repo as primary data source |
 | [collection-showcase-frontend](https://github.com/FutureGadgetCollections/collection-showcase-frontend) | Public frontend — also reads from this repo |
 
 ## Data Files

@@ -11,10 +11,10 @@ You are an expert on the full **Collection Market Tracker** system — a multi-r
 |------|--------|-----------|---------|
 | Data files (this repo) | `FutureGadgetCollections/collection-market-tracker-data` | `../collection-market-tracker-data` | Static JSON snapshots published by the backend |
 | Backend | `FutureGadgetCollections/collection-market-tracker-backend` | `../collection-market-tracker-backend` | Go API microservice + scheduled jobs — owns all writes to this repo |
-| Frontend admin | `FutureGadgetCollections/collection-market-tracker-frontend-admin` | `../collection-market-tracker-frontend-admin` | Hugo admin UI — reads from this repo as primary data source |
+| Frontend admin | `FutureGadgetCollections/collection-admin` | `../collection-admin` | Hugo admin UI — reads from this repo as primary data source |
 | Showcase frontend | `FutureGadgetCollections/collection-showcase-frontend` | `../collection-showcase-frontend` | Public Hugo site — also reads from this repo |
 
-All repos are siblings under the same parent. Run `setup.sh` from `collection-market-tracker-frontend-admin` if any are missing.
+All repos are siblings under the same parent. Run `setup.sh` from `collection-admin` if any are missing.
 
 ## GCP Infrastructure
 

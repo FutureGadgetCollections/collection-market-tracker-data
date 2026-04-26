@@ -8,7 +8,7 @@ Static JSON data layer for the **Collection Market Tracker**. This repo holds JS
 
 ## Multi-Repo Setup
 
-All repos are siblings under the same parent directory. Run `setup.sh` from `collection-market-tracker-frontend-admin` to clone any missing sibling repos.
+All repos are siblings under the same parent directory. Run `setup.sh` from `collection-admin` to clone any missing sibling repos.
 
 ## All Repositories
 
@@ -16,7 +16,7 @@ All repos are siblings under the same parent directory. Run `setup.sh` from `col
 |------|--------|-----------|---------|
 | Data files (this repo) | `FutureGadgetCollections/collection-market-tracker-data` | `../collection-market-tracker-data` | JSON snapshots published by backend |
 | Backend | `FutureGadgetCollections/collection-market-tracker-backend` | `../collection-market-tracker-backend` | Owns writes to this repo + GCS |
-| Frontend admin | `FutureGadgetCollections/collection-market-tracker-frontend-admin` | `../collection-market-tracker-frontend-admin` | Admin UI — reads from this repo as primary source |
+| Frontend admin | `FutureGadgetCollections/collection-admin` | `../collection-admin` | Admin UI — reads from this repo as primary source |
 | Showcase frontend (public) | `FutureGadgetCollections/collection-showcase-frontend` | `../collection-showcase-frontend` | Public Hugo site — also reads from here |
 
 ## GCP Infrastructure
